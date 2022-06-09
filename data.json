@@ -1,12 +1,5 @@
 {
   "workers": [
-    {
-      "name": "Same",
-      "age": 32
-    },
-    {
-      "name": "babu",
-      "age": 15
-    }
+
   ]
 }
