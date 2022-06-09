@@ -6,3 +6,10 @@ def add_workers(name,age,position):
         array_in_data = data["workers"]
         add_variables = {"name": name, "age": age, "position": position}
         array_in_data.append(add_variables)
+
+        with open('data.json', 'w') as file:
+            json.dump(data, file, indent=6)
+
+
+
+
