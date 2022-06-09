@@ -2,7 +2,7 @@ from functions import add_workers
 from functions import see
 
 
-user_order = 'what you want to do: '
+user_order = input('what you want to do: ')
 
 if user_order == 'add':
     user_order_name = input('enter name: ')

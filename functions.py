@@ -15,7 +15,7 @@ def see():
         data = json.load(file)
         array_in_data = data["workers"]
         for w in array_in_data:
-            print(array_in_data["name"], array_in_data["age"], array_in_data["position"])
+            print(w["name"] + ',', w["age"] + ',', w["position"])
 
 
 
